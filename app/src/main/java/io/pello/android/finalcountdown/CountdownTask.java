@@ -27,7 +27,6 @@ public class CountdownTask
     @Override
     protected void onPreExecute () {
         Toast.makeText(this.mainActivity, "Starting Async Task", Toast.LENGTH_SHORT).show();
-        this.mainActivity.getCountDownNumber().setText("10");
     }
 
     @Override
